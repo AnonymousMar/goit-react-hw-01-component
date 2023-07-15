@@ -1,0 +1,46 @@
+.profile{
+    margin-top: 50px;
+    background-color: #ffffff;
+    width: 350px;
+    height: auto;
+}
+.stats{
+    background-color: #e7e7e7;
+    margin-bottom: 0px;
+    text-align: center;
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+li{
+    position: relative;
+    text-align: center;
+}
+li::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    background-color:#8f8484;
+    margin-left: 33px;
+}
+.quantity{
+    display: block;
+}
+
+p, .label{
+    color: #949494;
+}
+
+.avatar{
+    border-radius: 50%;
+    width: 80px;
+    height: auto;
+    margin-right: auto;
+}
+.container{
+   text-align: center;
+   display: inline-block;
+
+}
