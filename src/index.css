@@ -14,8 +14,9 @@ code {
     monospace;
 }
 body{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #979595;
+  background-color: #d3d3d3;
+  font-family: sans-serif;
+  line-height: 1.5;
+  display: block;
+  margin: 8px;
 }
