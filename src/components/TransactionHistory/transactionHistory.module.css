@@ -1,4 +1,4 @@
-.TransactionHistory{
+.TransactionHistory {
     width: 500px;
     border-collapse: collapse;
     align-items: center;
@@ -8,19 +8,23 @@
     background-color: #fff;
     border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.75) 1px 1px 12px -5px;
-    }
+}
 
 
-th, td{
+th,
+td {
     border: 1px solid gray;
     padding: 8px;
 }
-th{
+
+th {
     background-color: #fff;
 }
-tr:nth-child(even){
+
+tr:nth-child(even) {
     background-color: aliceblue;
 }
-td{
+
+td {
     padding-left: 50px;
 }
